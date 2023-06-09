@@ -1,4 +1,4 @@
-package com.example.ch7_ex1;
+package com.example.part_2;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(Ch7Ex1Application.class);
+		return application.sources(Ch7Application.class);
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.example.ch7_ex1;
+package com.example.part_2;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
