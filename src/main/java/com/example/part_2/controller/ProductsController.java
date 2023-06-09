@@ -35,4 +35,13 @@ public class ProductsController {
 
         return "products.html";
    }
+
+    @PostMapping("/products1")
+    public String addProduct1(Product p, Model model) {
+        productService.addProduct(p);
+        model.addAttribute("products", productService.findAll());
+
+        return "products.html";
+    }
+
 }

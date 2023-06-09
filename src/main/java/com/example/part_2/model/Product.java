@@ -4,6 +4,9 @@ public class Product {
     private String name;
     private Double price;
 
+    public Product() {
+    }
+
     public String getName() {
         return name;
     }
